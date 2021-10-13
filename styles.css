@@ -1,0 +1,36 @@
+text {
+  font-family: 'Times New Roman';
+  font-size: 20px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+}
+
+.tick text {
+  fill: black;
+  font-size: 13px;
+}
+
+rect {
+  stroke: white;
+}
+
+.bar1 {
+  fill: green;
+}
+
+.bar1:hover {
+  fill: red;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 14px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 1.5px;
+}

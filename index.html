@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <title>Muralikrishna_project 1</title>
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"
+      charset="utf-8"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="title">
+      <h1 style="text-align: center; font-weight: bold">
+        London's 1854 Cholera Epidemic Map
+      </h1>
+    </div>
+
+    <div class="documentation&video">
+      <h2 style="text-align: right; padding: 40px 40px 0px 0px;"><a href="about.html"> About </a></h2>
+      <h2 style="text-align: right">
+        <a href="documentation.html"> Documentaion </a>
+      </h2>
+      <h2 style="text-align: right">
+        <a href="video.html"> Presentation_Video </a>
+      </h2>
+    </div>
+    <div class="row">
+      <div id="cholera_map" class="col-md-6 col-sm-12" > <text id="label" x="70" y="300">Cholera map </text></div>
+      <div
+        id="timeline_graph"
+        class="col-md-6 col-sm-12"
+        style="text-align: center"
+      ></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div style="padding-left: 5rem">
+          <svg id="age_distribution" width="500" height="700">
+            
+            <text id="label" x="70" y="450">Gender distribution pie chart</text>
+            <g transform="translate(150,400)"></g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-12">
+        <svg id="age_range" width="500" height="700">
+          <text id="label" x="70" y="450">Age distribution pie chart</text>
+          <g transform="translate(150,400)"></g>
+        </svg>
+      </div>
+    </div>
+
+    <hr />
+    
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
